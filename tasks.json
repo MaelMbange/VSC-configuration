@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      // Set the label to the name of the task
+      "label": "Task-Name",
+      "type": "shell",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": [
+        // Set the task to run
+        // exemple: "runClient" | "runServer"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

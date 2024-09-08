@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Set the name of the configuration; appears in the launch configuration drop-down menu.
+      "name": "Config-name",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "com.example.Main",
+      // If not using the default build task, set the preLaunchTask to the label of the task in tasks.json
+      "preLaunchTask": "Task-Name",
+      "console": "integratedTerminal"
+    }
+  ]
+}
